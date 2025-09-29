@@ -122,10 +122,113 @@ a:hover {
     font-weight: 700;
     color: var(--text-primary);
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo span {
     color: var(--accent-color);
+}
+
+/* Custom Logo Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-mark {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #00ff9f, #00ADB5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 255, 159, 0.2);
+}
+
+.logo-mark::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #0a0a0a;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.logo-initials {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00ff9f;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.logo-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.nav-logo:hover .logo-mark {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 255, 159, 0.4);
+}
+
+.nav-logo:hover .logo-mark::before {
+    inset: 1px;
+}
+
+.nav-logo:hover .logo-initials {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 255, 159, 0.6);
+}
+
+.nav-logo:hover .logo-text {
+    color: #00ff9f;
+}
+
+/* Logo entrance animation */
+@keyframes logoFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo-container {
+    animation: logoFadeIn 0.6s ease-out 0.2s both;
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+    .logo-mark {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .logo-initials {
+        font-size: 14px;
+    }
+    
+    .logo-text {
+        font-size: 16px;
+    }
+    
+    .logo-container {
+        gap: 0.75rem;
+    }
 }
 
 .nav-menu {
