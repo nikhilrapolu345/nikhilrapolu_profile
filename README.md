@@ -1,10 +1,22 @@
-# Cybersecurity Portfolio Website
+# Nikhil Rapolu - Application & Cloud Security Engineer
 
-A modern, responsive portfolio website for cybersecurity professionals, penetration testers, and security researchers. Built with clean HTML5 and CSS3, optimized for GitHub Pages deployment.
+A modern, responsive portfolio website showcasing expertise in Application Security, Cloud Security, Security Engineering, and AI Security. Built with clean HTML5 and CSS3, optimized for GitHub Pages deployment.
 
-## 🚀 Live Demo
+## 🚀 Portfolio Overview
 
-Visit your portfolio at: `https://<your-username>.github.io/`
+**Professional Profile:**
+- **Role:** Application & Cloud Security Engineer
+- **Company:** Bristol Myers Squibb
+- **Experience:** 5+ years in cybersecurity
+- **Location:** Hyderabad, India
+
+**Focus Areas:**
+- Application Security & DevSecOps
+- Cloud Security (AWS, IAM, Infrastructure)
+- Security Automation
+- Agentic AI for Cybersecurity
+- AI Security & LLM Security
+- Security Innovation & Gap Closure
 
 ## ✨ Features
 
@@ -18,88 +30,75 @@ Visit your portfolio at: `https://<your-username>.github.io/`
 ## 📁 Project Structure
 
 ```
-your-username.github.io/
-├── index.html          # Main portfolio page
-├── styles.css          # Responsive CSS styling
-├── README.md           # This file
-├── CNAME              # Custom domain configuration (optional)
+nikhilrapolu_profile/
+├── index.html              # Main portfolio page
+├── styles.css              # Responsive CSS styling
+├── README.md               # This file
 └── assets/
-    ├── resume.pdf      # Your resume (add your own)
-    ├── pgp-key.asc     # PGP public key (optional)
-    ├── favicon.ico     # Website icon
+    ├── favicon.ico         # Website icon
     └── images/
+        ├── Nikhil_DP.jpeg  # Profile image
         └── social-preview.png  # Social media preview image
 ```
 
-## 🛠️ Setup Instructions
+## 🛠️ Key Sections
 
-### Option 1: Quick Setup (Recommended)
+### Hero Section
+- Professional name and title
+- Current role and location
+- Brief professional description
+- Quick links to portfolio and contact
 
-1. **Create Repository**
-   ```bash
-   # Create a new repository named exactly: your-username.github.io
-   # Replace 'your-username' with your actual GitHub username
-   ```
+### About Me
+- Professional background and experience
+- Current focus at Bristol Myers Squibb
+- Key areas of expertise
+- Technical skills organized by category
 
-2. **Clone and Add Files**
-   ```bash
-   git clone https://github.com/your-username/your-username.github.io.git
-   cd your-username.github.io
-   
-   # Copy the portfolio files to this directory
-   # index.html, styles.css, README.md, and assets/ folder
-   ```
+### Currently Focused On
+- Scaling Application Security
+- Security Automation
+- Agentic AI for Security
+- Cloud Security
+- AI Security
+- Security Innovation
 
-3. **Customize Content**
-   - Replace all `<Your Name>` placeholders with your name
-   - Update `<your@email.com>` with your email
-   - Update `<username>` with your GitHub username
-   - Add your own content to portfolio and projects sections
-   - Replace placeholder certifications with your actual ones
+### Portfolio
+- Application Security Program
+- Cloud Security Engineering
+- Security Automation
+- Agentic AI for Cybersecurity
+- Developer-Centric Security
+- Security Innovation & Gap Closure
 
-4. **Deploy**
-   ```bash
-   git add .
-   git commit -m "Initial portfolio deployment"
-   git push origin main
-   ```
+### Certifications
+- CEH v12 (Certified Ethical Hacker)
+- Applied Cybersecurity Essentials (Purdue University)
 
-5. **Enable GitHub Pages**
-   - Go to your repository settings
-   - Scroll to "Pages" section
-   - Select "Deploy from a branch"
-   - Choose "main" branch and "/ (root)" folder
-   - Click "Save"
-
-Your site will be live at `https://your-username.github.io` within a few minutes!
-
-### Option 2: Fork and Customize
-
-1. Fork this repository
-2. Rename it to `your-username.github.io`
-3. Customize the content
-4. Enable GitHub Pages in settings
+### Achievements
+- Infosys Platinum Club (2024)
+- Top Performer (2023–2024)
+- 250+ vulnerabilities identified across 100+ assessments
 
 ## 📝 Customization Guide
 
 ### Personal Information
 
-Update these placeholders in `index.html`:
+Update in `index.html`:
+- Name: "Nikhil Rapolu"
+- Title: "Application & Cloud Security Engineer"
+- Email: nikhilrapolu345@gmail.com
+- LinkedIn: linkedin.com/in/nikhilrapolu
+- Location: Hyderabad, India
 
-```html
-<!-- Update these placeholders -->
-<Your Name>           → Your actual name
-<your@email.com>      → Your email address
-<username>            → Your GitHub username
-```
+### Content Updates
 
-### Portfolio Content
-
-1. **About Section**: Update the bio and skills
-2. **Portfolio**: Replace with your actual case studies
-3. **Projects**: Add your GitHub repositories and tools
-4. **Certifications**: List your security certifications
-5. **Contact**: Ensure all contact methods are correct
+1. **Hero Section**: Update professional title and description
+2. **About Section**: Modify bio and focus areas
+3. **Skills**: Add/remove skills in organized categories
+4. **Portfolio**: Update with current projects and focus areas
+5. **Certifications**: Maintain verification links
+6. **Contact**: Keep email, LinkedIn, and location current
 
 ### Styling
 
@@ -107,51 +106,40 @@ Customize colors in `styles.css`:
 
 ```css
 :root {
-    --accent-color: #00ff9f;        /* Primary accent color */
-    --accent-secondary: #ff6b6b;    /* Secondary accent color */
-    --primary-bg: #0a0a0a;          /* Main background */
+    --accent-color: #00ff9f;        /* Primary accent (green) */
+    --accent-secondary: #ff6b6b;    /* Secondary accent (red) */
+    --primary-bg: #0a0a0a;          /* Main background (dark) */
     --secondary-bg: #1a1a1a;        /* Section backgrounds */
-    /* Modify other variables as needed */
+    --text-primary: #ffffff;        /* Primary text (white) */
+    --text-secondary: #b3b3b3;      /* Secondary text (gray) */
 }
 ```
 
-### Adding Your Assets
+### Adding Assets
 
-1. **Resume**: Add `resume.pdf` to the `assets/` folder
-2. **PGP Key**: Add `pgp-key.asc` to the `assets/` folder (optional)
-3. **Images**: Add profile photos, project screenshots to `assets/images/`
-4. **Favicon**: Replace `assets/favicon.ico` with your own
+1. **Profile Image**: Place at `assets/images/Nikhil_DP.jpeg`
+2. **Favicon**: Update `assets/favicon.ico`
+3. **Social Preview**: Add `assets/images/social-preview.png` (1200x630px)
 
-## 🌐 Custom Domain Setup
+## 🌐 Deployment
 
-To use a custom domain (e.g., `yourname.com`):
+### GitHub Pages Setup
 
-1. **Create CNAME file**
-   ```bash
-   echo "yourname.com" > CNAME
-   git add CNAME
-   git commit -m "Add custom domain"
-   git push
-   ```
+1. Enable GitHub Pages in repository settings
+2. Select "Deploy from a branch"
+3. Choose "main" branch and "/ (root)" folder
+4. Click "Save"
 
-2. **Configure DNS**
-   - For apex domain (`yourname.com`):
-     ```
-     A    185.199.108.153
-     A    185.199.109.153
-     A    185.199.110.153
-     A    185.199.111.153
-     ```
-   
-   - For subdomain (`www.yourname.com`):
-     ```
-     CNAME    your-username.github.io
-     ```
+Your portfolio will be live at: `https://nikhilrapolu345.github.io/`
 
-3. **Update GitHub Settings**
-   - Go to repository settings → Pages
-   - Add your custom domain
-   - Enable "Enforce HTTPS"
+### Custom Domain (Optional)
+
+To use `nikhilrapolu.com`:
+
+1. Create CNAME file with your domain
+2. Configure DNS records in domain registrar
+3. Update GitHub Pages settings with custom domain
+4. Enable HTTPS enforcement
 
 ## 🔧 Development
 
@@ -170,58 +158,37 @@ php -S localhost:8000
 
 Visit `http://localhost:8000` to preview your site.
 
-### Content Guidelines
-
-**Portfolio Entries**:
-- Sanitize sensitive information
-- Use generic company descriptions
-- Focus on technical achievements
-- Include impact metrics where possible
-
-**Projects**:
-- Link to public repositories
-- Include clear descriptions
-- Add technology tags
-- Show GitHub stars/forks if impressive
-
-**Security Best Practices**:
-- Don't expose sensitive client information
-- Use responsible disclosure principles
-- Keep PGP key up to date
-- Regularly update contact information
-
 ## 📱 Browser Support
 
 - ✅ Chrome/Edge (90+)
 - ✅ Firefox (88+)
 - ✅ Safari (14+)
-- ✅ Mobile browsers
+- ✅ Mobile browsers (iOS, Android)
 - ⚠️ Internet Explorer (not supported)
 
 ## 🎯 SEO Optimization
 
 The site includes:
 
-- Semantic HTML structure
+- Semantic HTML5 structure
 - Meta descriptions and keywords
 - Open Graph tags for social sharing
 - Twitter Card support
-- Structured data for search engines
-- Optimized loading performance
+- Mobile viewport optimization
+- Fast loading performance
 
 ## 🔒 Security Features
 
-- Content Security Policy headers (configure in GitHub Pages)
+- Content Security Policy headers (via GitHub Pages)
 - No external dependencies
 - Secure HTTPS delivery via GitHub Pages
-- PGP key integration for secure communication
+- Minimal attack surface
 
 ## 📈 Analytics (Optional)
 
-To add Google Analytics:
+To add Google Analytics, insert before closing `</head>` tag:
 
 ```html
-<!-- Add before closing </head> tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -231,64 +198,49 @@ To add Google Analytics:
 </script>
 ```
 
-## 🤝 Contributing
-
-Feel free to:
-- Report bugs
-- Suggest improvements
-- Submit pull requests
-- Share feedback
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🆘 Troubleshooting
 
-### Common Issues
-
-**Site not loading after deployment**:
-- Check repository name matches `your-username.github.io`
-- Ensure GitHub Pages is enabled in settings
+### Site not loading
+- Verify GitHub Pages is enabled in settings
+- Check repository has correct name
 - Wait 5-10 minutes for initial deployment
 
-**Custom domain not working**:
-- Verify DNS configuration
-- Check CNAME file content
-- Ensure HTTPS is enforced in settings
+### Styling issues
+- Clear browser cache (Ctrl+Shift+Delete or Cmd+Shift+Delete)
+- Verify CSS file path is correct
+- Check browser console for errors
 
-**Styling issues**:
-- Clear browser cache
-- Check CSS file path in HTML
-- Validate CSS syntax
-
-**Mobile responsiveness**:
+### Mobile responsiveness
 - Test on actual devices
-- Use browser dev tools
-- Check viewport meta tag
+- Use browser DevTools device emulation
+- Verify viewport meta tag in HTML
 
-### Getting Help
+### Custom domain issues
+- Check CNAME file content matches domain
+- Verify DNS records are correct
+- Wait for DNS propagation (up to 48 hours)
 
-- 📧 Check GitHub Issues for common problems
-- 💬 GitHub Discussions for questions
-- 📖 GitHub Pages documentation
-- 🔍 Search Stack Overflow for specific issues
+## 🎉 Maintenance Checklist
 
-## 🎉 Success Checklist
+- [ ] Update portfolio with new projects
+- [ ] Refresh skills and expertise list
+- [ ] Add new certifications
+- [ ] Update company and role information
+- [ ] Verify all links are working
+- [ ] Review and update contact information
+- [ ] Test responsiveness on mobile devices
+- [ ] Check SEO metadata is current
+- [ ] Update social preview image if needed
 
-- [ ] Repository created with correct name
-- [ ] GitHub Pages enabled
-- [ ] Personal information updated
-- [ ] Portfolio content added
-- [ ] Resume uploaded
-- [ ] Social links working
-- [ ] Mobile responsive
-- [ ] Custom domain configured (optional)
-- [ ] Analytics added (optional)
-- [ ] SEO meta tags updated
+## 📧 Contact & Social
+
+- **Email:** nikhilrapolu345@gmail.com
+- **LinkedIn:** linkedin.com/in/nikhilrapolu
+- **Location:** Hyderabad, India
+- **Resume:** Available via portfolio link
 
 ---
 
-**Built with ❤️ for the cybersecurity community**
+**Built with ❤️ for Application Security, Cloud Security, and Security Innovation**
 
-Remember to keep your portfolio updated with new projects, certifications, and achievements. Good luck with your cybersecurity career!
+Last updated: September 2026
