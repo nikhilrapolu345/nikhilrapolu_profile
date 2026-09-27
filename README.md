@@ -1,69 +1,28 @@
-# Nikhil Rapolu - Application & Cloud Security Engineer
+# Nikhil Rapolu - Application & Cloud Security Specialist II
 
-A modern, responsive portfolio website showcasing expertise in Application Security, Cloud Security, Security Engineering, and AI Security. Built with clean HTML5 and CSS3, optimized for GitHub Pages deployment.
+A responsive portfolio website showcasing Application Security, Cloud Security, Security Engineering, Security Automation, and AI Security expertise. Built with HTML5 and CSS3 and deployed on GitHub Pages.
 
-## 🚀 Portfolio Overview
+## Professional Profile
 
-**Professional Profile:**
-- **Role:** Application & Cloud Security Engineer
-- **Company:** Bristol Myers Squibb
+- **Name:** Nikhil Rapolu
+- **Designation:** Application & Cloud Security Specialist II
+- **Company:** Bristol Myers Squibb (BMS)
 - **Experience:** 5+ years in cybersecurity
 - **Location:** Hyderabad, India
 
-**Focus Areas:**
-- Application Security & DevSecOps
-- Cloud Security (AWS, IAM, Infrastructure)
+## Focus Areas
+
+- Application Security and DevSecOps
+- Cloud Security, AWS, IAM, and infrastructure security
+- Security Engineering and Secure SDLC
 - Security Automation
+- Threat Modeling
+- AI and LLM Security
 - Agentic AI for Cybersecurity
-- AI Security & LLM Security
-- Security Innovation & Gap Closure
+- Security Innovation and practical gap closure
 
-## ✨ Features
+## Portfolio Sections
 
-- **Modern Dark Theme**: Cybersecurity-focused aesthetic with accent colors
-- **Fully Responsive**: Mobile-first design that works on all devices
-- **SEO Optimized**: Meta tags, Open Graph, and Twitter Card support
-- **Accessibility**: WCAG compliant with keyboard navigation and screen reader support
-- **Performance**: Lightweight, no external dependencies
-- **GitHub Pages Ready**: Deploy in seconds with zero configuration
-
-## 📁 Project Structure
-
-```
-nikhilrapolu_profile/
-├── index.html              # Main portfolio page
-├── styles.css              # Responsive CSS styling
-├── README.md               # This file
-└── assets/
-    ├── favicon.ico         # Website icon
-    └── images/
-        ├── Nikhil_DP.jpeg  # Profile image
-        └── social-preview.png  # Social media preview image
-```
-
-## 🛠️ Key Sections
-
-### Hero Section
-- Professional name and title
-- Current role and location
-- Brief professional description
-- Quick links to portfolio and contact
-
-### About Me
-- Professional background and experience
-- Current focus at Bristol Myers Squibb
-- Key areas of expertise
-- Technical skills organized by category
-
-### Currently Focused On
-- Scaling Application Security
-- Security Automation
-- Agentic AI for Security
-- Cloud Security
-- AI Security
-- Security Innovation
-
-### Portfolio
 - Application Security Program
 - Cloud Security Engineering
 - Security Automation
@@ -71,173 +30,52 @@ nikhilrapolu_profile/
 - Developer-Centric Security
 - Security Innovation & Gap Closure
 
-### Certifications
-- CEH v12 (Certified Ethical Hacker)
-- Applied Cybersecurity Essentials (Purdue University)
+## Certifications
 
-### Achievements
-- Infosys Platinum Club (2024)
-- Top Performer (2023–2024)
-- 250+ vulnerabilities identified across 100+ assessments
+- CEH v12 — Certified Ethical Hacker
+- Applied Cybersecurity Essentials — Purdue University
 
-## 📝 Customization Guide
+## Achievements
 
-### Personal Information
+- Infosys Platinum Club — 2024
+- Top Performer — 2023–2024
+- 250+ vulnerabilities identified
+- 100+ security assessments
 
-Update in `index.html`:
-- Name: "Nikhil Rapolu"
-- Title: "Application & Cloud Security Engineer"
-- Email: nikhilrapolu345@gmail.com
-- LinkedIn: linkedin.com/in/nikhilrapolu
-- Location: Hyderabad, India
+## Contact
 
-### Content Updates
+- **Email:** [nikhilrapolu345@gmail.com](mailto:nikhilrapolu345@gmail.com)
+- **LinkedIn:** [linkedin.com/in/nikhilrapolu](https://linkedin.com/in/nikhilrapolu)
+- **Resume:** [View resume](https://drive.google.com/file/d/11DrpJ6PQEBWWLCSzqE54e2kx1mQj6DXD/view?usp=drive_link)
 
-1. **Hero Section**: Update professional title and description
-2. **About Section**: Modify bio and focus areas
-3. **Skills**: Add/remove skills in organized categories
-4. **Portfolio**: Update with current projects and focus areas
-5. **Certifications**: Maintain verification links
-6. **Contact**: Keep email, LinkedIn, and location current
+## GitHub Pages
 
-### Styling
+This site is published at:
 
-Customize colors in `styles.css`:
+`https://nikhilrapolu345.github.io/nikhilrapolu_profile/`
 
-```css
-:root {
-    --accent-color: #00ff9f;        /* Primary accent (green) */
-    --accent-secondary: #ff6b6b;    /* Secondary accent (red) */
-    --primary-bg: #0a0a0a;          /* Main background (dark) */
-    --secondary-bg: #1a1a1a;        /* Section backgrounds */
-    --text-primary: #ffffff;        /* Primary text (white) */
-    --text-secondary: #b3b3b3;      /* Secondary text (gray) */
-}
-```
-
-### Adding Assets
-
-1. **Profile Image**: Place at `assets/images/Nikhil_DP.jpeg`
-2. **Favicon**: Update `assets/favicon.ico`
-3. **Social Preview**: Add `assets/images/social-preview.png` (1200x630px)
-
-## 🌐 Deployment
-
-### GitHub Pages Setup
-
-1. Enable GitHub Pages in repository settings
-2. Select "Deploy from a branch"
-3. Choose "main" branch and "/ (root)" folder
-4. Click "Save"
-
-Your portfolio will be live at: `https://nikhilrapolu345.github.io/`
-
-### Custom Domain (Optional)
-
-To use `nikhilrapolu.com`:
-
-1. Create CNAME file with your domain
-2. Configure DNS records in domain registrar
-3. Update GitHub Pages settings with custom domain
-4. Enable HTTPS enforcement
-
-## 🔧 Development
-
-### Local Development
+To deploy locally:
 
 ```bash
-# Serve locally (requires Python)
 python -m http.server 8000
-
-# Or with Node.js
-npx http-server
-
-# Or with PHP
-php -S localhost:8000
 ```
 
-Visit `http://localhost:8000` to preview your site.
+Then visit `http://localhost:8000`.
 
-## 📱 Browser Support
+## Repository Structure
 
-- ✅ Chrome/Edge (90+)
-- ✅ Firefox (88+)
-- ✅ Safari (14+)
-- ✅ Mobile browsers (iOS, Android)
-- ⚠️ Internet Explorer (not supported)
-
-## 🎯 SEO Optimization
-
-The site includes:
-
-- Semantic HTML5 structure
-- Meta descriptions and keywords
-- Open Graph tags for social sharing
-- Twitter Card support
-- Mobile viewport optimization
-- Fast loading performance
-
-## 🔒 Security Features
-
-- Content Security Policy headers (via GitHub Pages)
-- No external dependencies
-- Secure HTTPS delivery via GitHub Pages
-- Minimal attack surface
-
-## 📈 Analytics (Optional)
-
-To add Google Analytics, insert before closing `</head>` tag:
-
-```html
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
+```text
+nikhilrapolu_profile/
+├── index.html
+├── styles.css
+├── README.md
+└── assets/
+    ├── favicon.ico
+    └── images/
+        └── Nikhil_DP.jpeg
 ```
 
-## 🆘 Troubleshooting
-
-### Site not loading
-- Verify GitHub Pages is enabled in settings
-- Check repository has correct name
-- Wait 5-10 minutes for initial deployment
-
-### Styling issues
-- Clear browser cache (Ctrl+Shift+Delete or Cmd+Shift+Delete)
-- Verify CSS file path is correct
-- Check browser console for errors
-
-### Mobile responsiveness
-- Test on actual devices
-- Use browser DevTools device emulation
-- Verify viewport meta tag in HTML
-
-### Custom domain issues
-- Check CNAME file content matches domain
-- Verify DNS records are correct
-- Wait for DNS propagation (up to 48 hours)
-
-## 🎉 Maintenance Checklist
-
-- [ ] Update portfolio with new projects
-- [ ] Refresh skills and expertise list
-- [ ] Add new certifications
-- [ ] Update company and role information
-- [ ] Verify all links are working
-- [ ] Review and update contact information
-- [ ] Test responsiveness on mobile devices
-- [ ] Check SEO metadata is current
-- [ ] Update social preview image if needed
-
-## 📧 Contact & Social
-
-- **Email:** nikhilrapolu345@gmail.com
-- **LinkedIn:** linkedin.com/in/nikhilrapolu
-- **Location:** Hyderabad, India
-- **Resume:** Available via portfolio link
+The existing visual theme, styles, profile image, favicon, responsive behavior, and navigation structure are intentionally preserved.
 
 ---
 
